@@ -1,0 +1,6 @@
+﻿  FishMan.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\users\nga\desktop\gamecastlevania\castlevania\fishman.cpp(146): warning C4305: '-=': truncation from 'double' to 'float'
+c:\users\nga\desktop\gamecastlevania\castlevania\fishman.cpp(183): warning C4018: '<': signed/unsigned mismatch
+  Castlevania.vcxproj -> C:\Users\Nga\Desktop\GameCastlevania\Debug\Castlevania.exe
+  Castlevania.vcxproj -> C:\Users\Nga\Desktop\GameCastlevania\Debug\Castlevania.pdb (Partial PDB)
