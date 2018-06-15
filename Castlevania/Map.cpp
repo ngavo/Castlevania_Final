@@ -529,6 +529,7 @@ void Map::UpdateCHungCho10And12(float time, kitty* simon)
 					simon->_posy = 450;
 					simon->camera->viewport.x = 0;
 					simon->camera->viewport.y = G_ScreenHeight;
+					simon->MangTrenUI = 12;
 				}
 			}
 

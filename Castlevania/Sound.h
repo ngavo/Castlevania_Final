@@ -48,6 +48,6 @@ public:
 	void Stop(eSoundID);
 	void PlayLoop(eSoundID);
 	bool IsPLaying(eSoundID);
-	int diemHeart = 0;
+	//int diemHeart = 0;
 };
 

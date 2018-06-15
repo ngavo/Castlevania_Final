@@ -130,11 +130,13 @@ void UI::Update(kitty*simon, int time)
 			timeString = "0" + timeString;
 		}
 	
-
-		std::string heart = std::to_string(simon->heart);
-	information = "SCORE-"+ scoreString + "TIME " + timeString + " STAGE 10\n";
+		std::string Stage = std::to_string(simon->MangTrenUI);
+		std::string MangSong = std::to_string(simon->mangSong);
+	 
+	std::string heart = std::to_string(simon->heart);
+	information = "SCORE-"+ scoreString + "TIME " + timeString + " STAGE"+ Stage+ "\n";
 	information += "PLAYER               ="+ heart + "\n";
-	information += "ENEMY               P=3\n";
+	information += "ENEMY               P="+MangSong+"\n";
 
 }
 

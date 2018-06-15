@@ -10,23 +10,30 @@ heartSmall::heartSmall(float x, float y, int width, int height):Item(x,y)
 	this->camera = new  GCamera();
 	this->_width = width;
 	this->_height = height;
+	vx = 0;
+	this->_vy = 60;
+
 }
 
 void heartSmall::Update(float time)
 {
 	timerSprite += time;
-	float vx = 0;
-	if (timerSprite > 0.15)
+	/*float vx = 0;*/
+	if (timerSprite > 0.3)
 	{
 		if (!itemChamDat)
 		{
 			a += 15 * time;
-			vx = 1;
+			vx = 5;
+		}
+		else
+		{
+			vx = 0;
 		}
 		
 		this->_y = this->_y - this->_vy*time ;
-		this->_x = this->_x + vx*cos(a);
-		timerSprite -= 0.15;
+		this->_x = this->_x + vx*cos(a) ;
+		timerSprite -= 0.3;
 	}
 
 }

@@ -1,6 +1,12 @@
-﻿  FishMan.cpp
+﻿  SceneMain.cpp
   c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-c:\users\nga\desktop\gamecastlevania\castlevania\fishman.cpp(146): warning C4305: '-=': truncation from 'double' to 'float'
-c:\users\nga\desktop\gamecastlevania\castlevania\fishman.cpp(183): warning C4018: '<': signed/unsigned mismatch
-  Castlevania.vcxproj -> C:\Users\Nga\Desktop\GameCastlevania\Debug\Castlevania.exe
-  Castlevania.vcxproj -> C:\Users\Nga\Desktop\GameCastlevania\Debug\Castlevania.pdb (Partial PDB)
+e:\projectuit2018\gamefinal\castlevania_final\castlevania\game.h(7): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+e:\projectuit2018\gamefinal\castlevania_final\castlevania\scenemain.cpp(43): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+e:\projectuit2018\gamefinal\castlevania_final\castlevania\scenemain.cpp(57): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\projectuit2018\gamefinal\castlevania_final\castlevania\scenemain.cpp(62): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\projectuit2018\gamefinal\castlevania_final\castlevania\scenemain.cpp(97): warning C4244: 'argument': conversion from 'FLOAT' to 'int', possible loss of data
+e:\projectuit2018\gamefinal\castlevania_final\castlevania\scenemain.cpp(98): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\projectuit2018\gamefinal\castlevania_final\castlevania\scenemain.cpp(102): warning C4244: 'argument': conversion from 'FLOAT' to 'int', possible loss of data
+e:\projectuit2018\gamefinal\castlevania_final\castlevania\scenemain.cpp(103): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Castlevania.vcxproj -> E:\projectUIT2018\GameFinal\Castlevania_Final\Debug\Castlevania.exe
+  Castlevania.vcxproj -> E:\projectUIT2018\GameFinal\Castlevania_Final\Debug\Castlevania.pdb (Partial PDB)

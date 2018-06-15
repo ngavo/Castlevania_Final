@@ -39,15 +39,23 @@ kitty::kitty()
 	VuKhiDanger*_vukhidanger = new VuKhiDanger(eVuKhi::DANGER, _posx, _posy, 32, 16, "Resources/item/bonus.bmp", 6, 4, 22, 0, 0, 0);
 	_listVuKhi.push_back(_fireBom);
 	_listVuKhi.push_back(_vukhidanger);
+	hp = 16;
 	
 }
 
 void kitty::Update(float time, vector<GameObject*>_listObjectQuadtree, vector<Enemy*>_listEnemy)
 {
+	if (hp <= 0)
+	{
+		this->isDie=true;
+		/*this->mangSong -= 1;*/
+		
+	}
 
 	if (this->_posy < 100 && this->stageMapChange == 0)
 	{
 		isDie = true;
+		this->mangSong -= 1;
 		
 	}
 	if (stageMapChange == 0)

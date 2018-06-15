@@ -18,6 +18,7 @@ void SceneMain::UpdateFrame(float Delta)
 		}
 		else
 		{
+			this->_kitty->hp = 16;
 			if (time > 0)
 			{
 				this->_kitty->score += 10;

@@ -56,17 +56,8 @@ public:
 	float timerSpriteForBatTu = 0;
 	float timerAnWhip = 0;
 	int win = 0;
-
-
-
-
-
-
-
-
-
-
-
+	int MangTrenUI=10;
+	int mangSong = 3;
 
 
 	GSprite *sprite;
